@@ -150,7 +150,8 @@ body {
 }
 
 .services-item img{
-    margin-left: 40px;
+    margin-left: 10px;
+    
 }
 
 .service-detail{
@@ -186,4 +187,51 @@ body {
     cursor: pointer;
     border-radius: 4px;
     font-weight: bold;
+}
+
+/* Contact section*/
+
+.contact-container{
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.contact-image img{
+    width: 400px;
+    height: 300px;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+
+.contact-text{
+    flex: 1;
+    padding-left: 60px;
+    padding-top: 70px;
+
+}
+
+.contact-text form{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+}
+
+.contact-text form input[type="text"], .contact-text form input[type="email"], .contact-text form textarea{
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.contact-btn{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 90px;
 }
