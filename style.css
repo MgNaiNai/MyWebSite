@@ -187,3 +187,57 @@ body {
     border-radius: 4px;
     font-weight: bold;
 }
+
+
+/* contact section */
+
+.contact-container{
+    display: flex;
+    padding: 10px 50px;
+    /* background-color: aqua; */
+}
+
+
+
+.contact-text h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.contact-text p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2rem;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-left: 40px;
+    
+    
+}
+
+.contact-form{
+    flex: 1;
+    padding-left: 60px;
+    padding-top: 80px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea{
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-btn{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
